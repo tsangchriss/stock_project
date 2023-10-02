@@ -1,0 +1,28 @@
+# A Closer Examination {-}
+
+By the end of the fiscal year 2021, GameStop underwent numerous changes. One of the most notable being a change in leadership. Ryan Cohen, the former CEO of Chewy, took over as GameStop's new CEO and chairman of the board. He quickly implemented a change in business direction, aiming to expand their online sales and reorganize GameStop as an e-commerce company specializing in gaming and entertainment.
+
+<div class='tableauPlaceholder' id='viz1696204746099' style='position: relative'><noscript><a href='#'><img alt='Sheet 3 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;st&#47;stock_project&#47;Sheet3&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='stock_project&#47;Sheet3' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;st&#47;stock_project&#47;Sheet3&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                
+
+```{js, embedcode3, echo=FALSE}                 
+var divElement = document.getElementById('viz1696204746099');                    
+var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    
+var scriptElement = document.createElement('script');                    
+scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+```
+\
+
+Under new leadership, GameStop managed to reduce its total debt by approximately $314.6 million and raise around $1672.8 million in equity capital by the end of fiscal year 2021. This means that, at one point during that year, GameStop had accumulated enough assets to fully cover its obligations should the company be liquidated and had some surplus. But, by the end of the following fiscal year, 2022, the company's equity had dropped significantly by about 17.42%, while its liabilities had only decreased by 5.57%. This indicates that unless there is a turnaround, GameStop could find itself back in the precarious financial position it was in before 2021. 
+
+<div class='tableauPlaceholder' id='viz1696204913453' style='position: relative'><noscript><a href='#'><img alt='Sheet 4 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;st&#47;stock_project&#47;Sheet4&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='stock_project&#47;Sheet4' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;st&#47;stock_project&#47;Sheet4&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                
+```{js, embedcode4, echo=FALSE}                    
+var divElement = document.getElementById('viz1696204913453');                    
+var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    
+var scriptElement = document.createElement('script');                    
+scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+```
+
+Simply put, the **debt to equity ratio** (D/E) shows how much debt a company has for each dollar of equity. A high D/E ratio usually suggests a riskier investment, while a low ratio suggests the opposite. In fiscal year 2021, GameStop saw a 74.60% drop in its D/E ratio. By the close of that year, the company had about $1.18 in debt for every dollar of equity, a significant improvement compared to the $4.66 in debt for each dollar of equity it had in 2020. This change indicates that GameStop became a less risky investment option. 
+
+Many of these metrics are great and all for showing how GME performed during the peculiar period of fiscal 2021. But, by comparing its performance in these areas against its competitors will really show how it performed in the market and thus its overall financial health.  
+
