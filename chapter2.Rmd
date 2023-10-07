@@ -21,5 +21,3 @@ scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';     
 Simply put, the **debt to equity ratio** (D/E) shows how much debt a company has for each dollar of equity. A high D/E ratio usually suggests a riskier investment, while a low ratio suggests the opposite. In fiscal year 2021, GameStop saw a **74.60%** drop in its D/E ratio. By the close of that year, the company had about $1.18 in debt for every dollar of equity, a significant improvement compared to the $4.66 in debt for each dollar of equity it had in 2020. This change indicates that GameStop became a less risky investment option. 
 
 
-Many of these metrics are great and all for showing how GME performed during the peculiar period of fiscal 2021. But, by comparing its performance in these areas against its competitors will really show how it performed in the market and thus its overall financial health.  
-
