@@ -30,7 +30,7 @@ The fiscal year 2018 marked GameStop's peak net profit margin at 8.123%. This wa
 
 ## Peeling Back the Layers: Unraveling the Drivers of Margin Shifts {-}
 
-Beginning our investigation, we analyze the expenses subtracted from the gross profit to derive the firm's net income. Then, a closer examination of the cmopany's commentary on its financial performance.
+Beginning our investigation, we analyze the expenses subtracted from the gross profit to derive the firm's net income. Then, a closer examination of the company's commentary on its financial performance.
 
 <div class='tableauPlaceholder' id='viz1697843107725' style='position: relative'><noscript><a href='#'><img alt='Net Income Analysis ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;st&#47;stock_project&#47;NetIncomeAnalysis&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='stock_project&#47;NetIncomeAnalysis' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;st&#47;stock_project&#47;NetIncomeAnalysis&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>
 
@@ -64,3 +64,9 @@ vizElement.parentNode.insertBefore(scriptElement, vizElement);
 Like the previous evaluation of GameStop's asset effects on its gross profit and subsequent net income for fiscal years 2017 to 2018, we observe an increase in net profit margin from **0.406% to 8.123%** and in the operating margin from 5.140% to 8.470%. This trend aligns with the earlier hypothesis that GameStop undertook cost cutting measures to increase its profitability in fiscal 2018. But, the sharp rise in net profit margin by **7.717%** relative to the 3.33% increase in operating margin suggests that the cut expenses were predominantly non-operational rather than core operational costs. 
 
 Assuming that the dealer agreements were the primary reason behind the significant dip in GameStop's net income in fiscal 2017, the subsequent spike in net profit margin for fiscal 2018 can likely be attributed to GameStop's move to sell its entire equity in Spring mobile on January 16, 2019. From this transaction, GameStop gained a total of $729.9 million or, after tax, $65.4 million. 
+
+## Analysis Overview {-}
+In our analysis so far, we've delved into GameStop's financial reports, focusing on their profitability and operational efficiency during the fiscal years 2017 and 2018. Notably, in response to a marked decline in net income in fiscal 2017, largely attributed to the dealer agreement losses, GameStop enhanced its profitability in fiscal 2018 by cutting non-core expenses, mitigating the effects of increasing losses from asset impairments.
+
+While this provides valuable insights, a more comprehensive perspective can be gained by benchmarking GameStop's financial metrics against its competitors in the retail sector. The next chapter undertakes this comparative analysis to offer a more nuanced view of GameStop's financial health. 
+

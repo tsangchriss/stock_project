@@ -1,11 +1,41 @@
 --- 
-title: "What's The Deal With GameStop?"
+title: "GameStop Project"
 author: "Chris Tsang"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 ---
 
 # Introduction {-}
+
+## GameStop and Goals of the Project {-}
+Established in Grapevine, Texas in 1984, GameStop Corp. originally focused on video game retail but has pivoted towards an ecommerce model like Walmart and Best Buy. After 2020, the company's financial position has been under intense scrutiny, particularly following the dramatic stock price increase in January 2021.
+
+The primary objective of this analysis is to cut through the speculative chatter and provide an objective evaluation of GameStop's financials, sourced from SEC filings. **This is not an investment recommendation but an attempt to present a clear financial picture of the firm.** Utilizing the SEC's EDGAR database and key financial indicators, we delve into GameStop and its competitors' annual 10K reports for an unbiased comparison. While the analysis remain objective, certain inferences regarding specific financial metrics are made to provide context. 
+
+Having said that, the questions this project attempts to answer are: \
+1) What does the profitability of GameStop look like? \
+2) How does GameStop respond to certain changes in their financials? \
+3) How does GameStop compare to its competitors, financially? \
+
+## Process {-}
+In pursuing a concise and insightful analysis, I first identified key financial metrics related to a company's profitability, efficiency, and risk. Data from the annual reports was sourced from the SEC's EDGAR platform and then transferred to Excel spreadsheets. After ensuring data accuracy, I imported this information to pgAdmin4, executed PostgreSQL queries for relevant data extraction, and visualized the findings in Tableau. These visuals were then incorporated into an R markdown, using the Bookdown package in Rstudio. 
+
+## Why This Project? {-}
+The last time I visited a GameStop was probably during my middle school years with my family. Since then, we've shifted to mostly online shopping for its convenience and cost savings. So, when I recently came across a GameStop store in a San Francisco mall, I was curious about the company's current state. My research into the company revealed multiple interesting events, from leadership changes to a popular subreddit called "WallStreetBets" on Reddit. This cascade of information piqued my interest and became the catalyst for this project. 
+
+## Relevant Links {-}
+~ Data Understanding ~ \
+https://www.investopedia.com/investing- \
+https://www.investopedia.com/terms/1/10-k.asp \
+https://www.sec.gov/answers/reada10k.htm \
+https://www.investor.gov/introduction-investing/investing-basics/glossary \
+
+~ Data Collection ~ \
+U.S. SEC EDGAR tool: https://www.sec.gov/edgar/searchedgar/companysearch \
+GameStop Data: https://gamestop.gcs-web.com/ \
+Best Buy: https://investors.bestbuy.com/investor-relations/financial-info/annual-reports-and-proxy-statements/default.aspx \
+Walmart: https://stock.walmart.com/home/default.aspx \
+
 
 
 
