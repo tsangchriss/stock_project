@@ -1,7 +1,23 @@
-# How is GameStop Doing Compared to its Competitors?{-}
+# GameStop's Performance Relative to Competitors{-}
 ## Comparing Profitability Metrics {-}
 
-When analyzing the net income and net profit margins of each firm, we assess the typical annual cost structures and gauge the proportion of revenue retained as profit.
+In our comparison analysis, we begin by evaluating each company's gross profits and associated margins.
+
+<div class='tableauPlaceholder' id='viz1698115811832' style='position: relative'><noscript><a href='#'><img alt='Gross Profit &amp; Margin Analysis ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;st&#47;stock_project&#47;GrossProfitMarginAnalysis&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='stock_project&#47;GrossProfitMarginAnalysis' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;st&#47;stock_project&#47;GrossProfitMarginAnalysis&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                
+```{js, embedcode6, echo=FALSE}                    
+var divElement = document.getElementById('viz1698115811832');                    
+var vizElement = divElement.getElementsByTagName('object')[0];                    
+if ( divElement.offsetWidth > 800 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}                     
+var scriptElement = document.createElement('script');                    
+scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+```
+\
+GameStop consistently experienced the lowest gross profit across all fiscal years, notably reaching its minimum at $1.2595 billion in fiscal 2019. Looking back to fiscal 2016, **we can observe a declining trend in GameStop's gross profits, from $3.0093 billion to $1.3721 billion in fiscal 2022**. In contrast, both Best Buy and Walmart had upward trajectories in their gross profits over the same period. Walmart's gross profit increased from $121 billion in fiscal 2016 to $143 billion in fiscal 2022, while Best Buy saw a surge from $9.194 billion to $11.64 billion.
+
+Moreover, GameStop's diminishing gross profit is mirrored in its gross profit margin, which declined from 34.96% in fiscal 2016 to 23.15% in fiscal 2022. **Comparatively, Best Buy and Walmart maintained stable gross profit margins with minor changes**. Best Buy's margin hovered around 23.26% in fiscal 2016 and changed slightly to 22.49% in fiscal 2022, while Walmart's margin remained consistent, shifting from 25.13% in fiscal 2016 to 25.10% in fiscal 2022.
+
+Considering the downtrend in gross profit and margin for GameStop compared to Best Buy and Walmart since fiscal 2016, it implies a growing operational costs for GameStop. Interestingly, the narrowing gap in profit margins between fiscal 2020 and 2022 could indicate that GameStop is shifting its focus to e-commerce, thereby aligning its operations more closely with those of its competitors. 
 
 <div class='tableauPlaceholder' id='viz1697944582080' style='position: relative'><noscript><a href='#'><img alt='Net Profit Margin and Income Analysis ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;st&#47;stock_project&#47;NetProfitMarginandIncomeAnalysis&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='stock_project&#47;NetProfitMarginandIncomeAnalysis' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;st&#47;stock_project&#47;NetProfitMarginandIncomeAnalysis&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>        
 
@@ -11,6 +27,19 @@ var vizElement = divElement.getElementsByTagName('object')[0];
 if ( divElement.offsetWidth > 800 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} 
 else { vizElement.style.width='100%';vizElement.style.height='727px';}                     
 var scriptElement = document.createElement('script');                    
-scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                   
+vizElement.parentNode.insertBefore(scriptElement, vizElement);                
 ```
-\ 
+\
+
+When comparing net incomes across all fiscal years, Walmart consistently outperforms both GameStop and Best Buy, with its lowest net income recorded in fiscal 2019 at $7.179 billion. Also, Best Buy consistently reports higher net incomes than GameStop over the years, with its lowest in fsical 2013 at $411 million. Interestingly, fiscal 2013 saw the smallest net income gap between GameStop and Best Buy, with a difference of only $57 million, where GameStop reported $354.2 million. **In every fiscal year, GameStop's net income trails both Walmart and Best Buy**.
+
+Yet, when we delve into net profit margins, GameStop stands out. It consistently has higher net profit margins than its competitors in every fiscal year except for fiscal 2017, where it had a margin of only 0.406%. A notable instance was in 2018 when GameStop led with a net profit margin of **8.123%**, significantly ahead of Best Buy's 2.370% and Walmart's 2.100%. Even though GameStop lags in absolute net income, the company had an average net profit margin of 4.75%, frequently surpassing its competitors. 
+
+## Analysis Overview {-}
+
+From this comparative analysis, it is evident that GameStop, in terms of size and overall profit, is dwarfed especially by Walmart. However, when accessing profitability in terms of margins, GameStop often matches or even outperforms its competitors. Despite GameStop's smaller profit figures, the proportion of profit it retains from its revenues is notable and suggests further investigation. 
+
+
+
+

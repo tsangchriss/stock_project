@@ -1,4 +1,4 @@
-# How is GameStop Doing Financially? {-}
+# GameStop's Financial Health Assessment {-}
 ## Dissecting the Layers of Profitability: Gross and Net Margins Unveiled {-}
 The gross profit margin reveals the percentage of revenue a company keeps as profit after paying for business expenses like labor and materials. Essentially, it tells us how much of every dollar earned  remains after costs. This metric helps companies understand their efficiency and determine if they need to reduce costs to increase profits. 
 

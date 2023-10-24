@@ -23,7 +23,7 @@
 <meta name="author" content="Chris Tsang" />
 
 
-<meta name="date" content="2023-10-21" />
+<meta name="date" content="2023-10-23" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -31,7 +31,7 @@
   
   
 
-<link rel="next" href="how-is-gamestop-doing-financially.html"/>
+<link rel="next" href="gamestops-financial-health-assessment.html"/>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -78,21 +78,23 @@
 <li class="divider"></li>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Introduction</a>
 <ul>
-<li class="chapter" data-level="" data-path="index.html"><a href="index.html#gamestop-and-goals-of-the-project"><i class="fa fa-check"></i>GameStop and Goals of the Project</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#gamestop-objectives-of-the-analysis"><i class="fa fa-check"></i>GameStop: Objectives of the Analysis</a></li>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html#process"><i class="fa fa-check"></i>Process</a></li>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html#why-this-project"><i class="fa fa-check"></i>Why This Project?</a></li>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html#relevant-links"><i class="fa fa-check"></i>Relevant Links</a></li>
 </ul></li>
-<li class="chapter" data-level="" data-path="how-is-gamestop-doing-financially.html"><a href="how-is-gamestop-doing-financially.html"><i class="fa fa-check"></i>How is GameStop Doing Financially?</a>
+<li class="chapter" data-level="" data-path="gamestops-financial-health-assessment.html"><a href="gamestops-financial-health-assessment.html"><i class="fa fa-check"></i>GameStop’s Financial Health Assessment</a>
 <ul>
-<li class="chapter" data-level="" data-path="how-is-gamestop-doing-financially.html"><a href="how-is-gamestop-doing-financially.html#dissecting-the-layers-of-profitability-gross-and-net-margins-unveiled"><i class="fa fa-check"></i>Dissecting the Layers of Profitability: Gross and Net Margins Unveiled</a></li>
-<li class="chapter" data-level="" data-path="how-is-gamestop-doing-financially.html"><a href="how-is-gamestop-doing-financially.html#peeling-back-the-layers-unraveling-the-drivers-of-margin-shifts"><i class="fa fa-check"></i>Peeling Back the Layers: Unraveling the Drivers of Margin Shifts</a></li>
-<li class="chapter" data-level="" data-path="how-is-gamestop-doing-financially.html"><a href="how-is-gamestop-doing-financially.html#analysis-overview"><i class="fa fa-check"></i>Analysis Overview</a></li>
+<li class="chapter" data-level="" data-path="gamestops-financial-health-assessment.html"><a href="gamestops-financial-health-assessment.html#dissecting-the-layers-of-profitability-gross-and-net-margins-unveiled"><i class="fa fa-check"></i>Dissecting the Layers of Profitability: Gross and Net Margins Unveiled</a></li>
+<li class="chapter" data-level="" data-path="gamestops-financial-health-assessment.html"><a href="gamestops-financial-health-assessment.html#peeling-back-the-layers-unraveling-the-drivers-of-margin-shifts"><i class="fa fa-check"></i>Peeling Back the Layers: Unraveling the Drivers of Margin Shifts</a></li>
+<li class="chapter" data-level="" data-path="gamestops-financial-health-assessment.html"><a href="gamestops-financial-health-assessment.html#analysis-overview"><i class="fa fa-check"></i>Analysis Overview</a></li>
 </ul></li>
-<li class="chapter" data-level="" data-path="how-is-gamestop-doing-compared-to-its-competitors.html"><a href="how-is-gamestop-doing-compared-to-its-competitors.html"><i class="fa fa-check"></i>How is GameStop Doing Compared to its Competitors?</a>
+<li class="chapter" data-level="" data-path="gamestops-performance-relative-to-competitors.html"><a href="gamestops-performance-relative-to-competitors.html"><i class="fa fa-check"></i>GameStop’s Performance Relative to Competitors</a>
 <ul>
-<li class="chapter" data-level="" data-path="how-is-gamestop-doing-compared-to-its-competitors.html"><a href="how-is-gamestop-doing-compared-to-its-competitors.html#comparing-profitability-metrics"><i class="fa fa-check"></i>Comparing Profitability Metrics</a></li>
+<li class="chapter" data-level="" data-path="gamestops-performance-relative-to-competitors.html"><a href="gamestops-performance-relative-to-competitors.html#comparing-profitability-metrics"><i class="fa fa-check"></i>Comparing Profitability Metrics</a></li>
+<li class="chapter" data-level="" data-path="gamestops-performance-relative-to-competitors.html"><a href="gamestops-performance-relative-to-competitors.html#analysis-overview-1"><i class="fa fa-check"></i>Analysis Overview</a></li>
 </ul></li>
+<li class="chapter" data-level="" data-path="conclusions-and-recommendations.html"><a href="conclusions-and-recommendations.html"><i class="fa fa-check"></i>Conclusions and Recommendations</a></li>
 <li class="divider"></li>
 <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
 </ul>
@@ -115,18 +117,18 @@
 <div id="header">
 <h1 class="title">GameStop Project</h1>
 <p class="author"><em>Chris Tsang</em></p>
-<p class="date"><em>2023-10-21</em></p>
+<p class="date"><em>2023-10-23</em></p>
 </div>
 <div id="introduction" class="section level1 unnumbered hasAnchor">
 <h1>Introduction<a href="index.html#introduction" class="anchor-section" aria-label="Anchor link to header"></a></h1>
-<div id="gamestop-and-goals-of-the-project" class="section level2 unnumbered hasAnchor">
-<h2>GameStop and Goals of the Project<a href="index.html#gamestop-and-goals-of-the-project" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="gamestop-objectives-of-the-analysis" class="section level2 unnumbered hasAnchor">
+<h2>GameStop: Objectives of the Analysis<a href="index.html#gamestop-objectives-of-the-analysis" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>Established in Grapevine, Texas in 1984, GameStop Corp. originally focused on video game retail but has pivoted towards an ecommerce model like Walmart and Best Buy. After 2020, the company’s financial position has been under intense scrutiny, particularly following the dramatic stock price increase in January 2021.</p>
 <p>The primary objective of this analysis is to cut through the speculative chatter and provide an objective evaluation of GameStop’s financials, sourced from SEC filings. <strong>This is not an investment recommendation but an attempt to present a clear financial picture of the firm.</strong> Utilizing the SEC’s EDGAR database and key financial indicators, we delve into GameStop and its competitors’ annual 10K reports for an unbiased comparison. While the analysis remain objective, certain inferences regarding specific financial metrics are made to provide context.</p>
 <p>Having said that, the questions this project attempts to answer are:<br />
-1) What does the profitability of GameStop look like?<br />
-2) How does GameStop respond to certain changes in their financials?<br />
-3) How does GameStop compare to its competitors, financially?<br />
+1) How does GameStop’s profitability show in its financials?<br />
+2) How does GameStop adapt to particular financial shifts?<br />
+3) In financial terms, how does GameStop stack up against its competitors?<br />
 </p>
 </div>
 <div id="process" class="section level2 unnumbered hasAnchor">
@@ -160,7 +162,7 @@ Walmart: <a href="https://stock.walmart.com/home/default.aspx" class="uri">https
         </div>
       </div>
 
-<a href="how-is-gamestop-doing-financially.html" class="navigation navigation-next navigation-unique" aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="gamestops-financial-health-assessment.html" class="navigation navigation-next navigation-unique" aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>

@@ -1,0 +1,13 @@
+# Conclusions and Recommendations {-}
+
+In wrapping up this analysis, let us circle back to the core questions mentioned in the introduction.
+
+1) **How does GameStop's profitability reflected in its financials?**
+Through an in depth review of GameStop's gross and net profit margins, as well as its operating margins and other expenses, we have been able to gain insights into its financial health. A notable observation was GameStop's adaptation following the asset impairments between fiscal 2017 and 2018, which seems to have led to improved profitability in subsequent years. However, it is crucial to note that the interpretation of "profitability" remains subjective and ultimately falls upon the investor's perspective.
+
+2) **How does GameStop adapt to particular financial shifts?**
+The period between fiscal 2017 and 2018, marked by increasing goodwill and asset impairments, showcased GameStop's strategic move to reduce non-operational expenses. This allowed the company to counteract the effects of asset impairment losses and subsequently enhance its profitability from fiscal 2019 onwards. For a more holistic understanding, I recommend a detailed exploration into GameStop's reasoning for acquiring these assets and financial strategies and performance during the COVID-19 pandemic.
+
+3) **When benchmarked financially, how does GameStop compare to its key competitors?** 
+In a side by side comparison with giants like Best Buy and Walmart, GameStop emerges as the smaller entity in terms of net income and gross profits. However, a noteworthy mention is that GameStop's net and gross profit margins stand relatively tall, often equaling or surpassing these industry leaders. To gain a more nuanced perspective, I recommend comparing GameStop with other competitors closer in size. Such a comparison might offer clearer insights into GameStop's financial standing within its competitive landscape. 
+

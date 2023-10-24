@@ -7,15 +7,15 @@ site: bookdown::bookdown_site
 
 # Introduction {-}
 
-## GameStop and Goals of the Project {-}
+## GameStop: Objectives of the Analysis {-}
 Established in Grapevine, Texas in 1984, GameStop Corp. originally focused on video game retail but has pivoted towards an ecommerce model like Walmart and Best Buy. After 2020, the company's financial position has been under intense scrutiny, particularly following the dramatic stock price increase in January 2021.
 
 The primary objective of this analysis is to cut through the speculative chatter and provide an objective evaluation of GameStop's financials, sourced from SEC filings. **This is not an investment recommendation but an attempt to present a clear financial picture of the firm.** Utilizing the SEC's EDGAR database and key financial indicators, we delve into GameStop and its competitors' annual 10K reports for an unbiased comparison. While the analysis remain objective, certain inferences regarding specific financial metrics are made to provide context. 
 
 Having said that, the questions this project attempts to answer are: \
-1) What does the profitability of GameStop look like? \
-2) How does GameStop respond to certain changes in their financials? \
-3) How does GameStop compare to its competitors, financially? \
+1) How does GameStop's profitability show in its financials? \
+2) How does GameStop adapt to particular financial shifts? \
+3) In financial terms, how does GameStop stack up against its competitors? \
 
 ## Process {-}
 In pursuing a concise and insightful analysis, I first identified key financial metrics related to a company's profitability, efficiency, and risk. Data from the annual reports was sourced from the SEC's EDGAR platform and then transferred to Excel spreadsheets. After ensuring data accuracy, I imported this information to pgAdmin4, executed PostgreSQL queries for relevant data extraction, and visualized the findings in Tableau. These visuals were then incorporated into an R markdown, using the Bookdown package in Rstudio. 
