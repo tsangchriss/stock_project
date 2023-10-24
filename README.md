@@ -1,4 +1,4 @@
-To view this project: [Stock Project](tsangchriss.github.io/stock_project/)
+To view this project: [Stock Project](https://tsangchriss.github.io/stock_project/)
 
 
 
